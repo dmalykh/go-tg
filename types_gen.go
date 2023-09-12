@@ -984,6 +984,8 @@ type KeyboardButton struct {
 	// Text of the button. If none of the optional fields are used, it will be sent as a message when the button is pressed
 	Text string `json:"text"`
 
+	URL string `json:"url"`
+
 	// Optional. If specified, pressing the button will open a list of suitable users. Tapping on any user will send their identifier to the bot in a “user_shared” service message. Available in private chats only.
 	RequestUser *KeyboardButtonRequestUser `json:"request_user,omitempty"`
 
