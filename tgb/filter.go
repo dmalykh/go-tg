@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"strings"
 
-	tg "github.com/mr-linch/go-tg"
+	tg "github.com/dmalykh/go-tg"
 	"golang.org/x/exp/slices"
 )
 

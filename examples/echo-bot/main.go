@@ -9,9 +9,8 @@ import (
 
 	_ "embed"
 
-	"github.com/mr-linch/go-tg"
-	"github.com/mr-linch/go-tg/examples"
-	"github.com/mr-linch/go-tg/tgb"
+	"github.com/dmalykh/go-tg/examples"
+	"github.com/dmalykh/go-tg/tgb"
 )
 
 var (

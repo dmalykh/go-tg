@@ -373,6 +373,14 @@ func NewKeyboardButton(text string) KeyboardButton {
 	}
 }
 
+// NewKeyboardButtonURL creates a plain reply keyboard button.
+func NewKeyboardButtonURL(text string, url string) KeyboardButton {
+	return KeyboardButton{
+		Text: text,
+		URL:  url,
+	}
+}
+
 // NewKeyboardButtonRequestContact creates a reply keyboard button that request a contact from user.
 // Available in private chats only.
 func NewKeyboardButtonRequestContact(text string) KeyboardButton {

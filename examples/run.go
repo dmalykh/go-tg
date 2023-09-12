@@ -9,8 +9,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/mr-linch/go-tg"
-	"github.com/mr-linch/go-tg/tgb"
+	"github.com/dmalykh/go-tg/tgb"
 )
 
 // Run runs bot with given router.

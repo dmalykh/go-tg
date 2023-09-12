@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	tg "github.com/mr-linch/go-tg"
+	tg "github.com/dmalykh/go-tg"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

@@ -7,10 +7,9 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/mr-linch/go-tg"
-	"github.com/mr-linch/go-tg/examples"
-	"github.com/mr-linch/go-tg/tgb"
-	"github.com/mr-linch/go-tg/tgb/session"
+	"github.com/dmalykh/go-tg/examples"
+	"github.com/dmalykh/go-tg/tgb"
+	"github.com/dmalykh/go-tg/tgb/session"
 )
 
 type SessionStep int8

@@ -1,4 +1,4 @@
-module github.com/mr-linch/go-tg
+module github.com/dmalykh/go-tg
 
 go 1.18
 

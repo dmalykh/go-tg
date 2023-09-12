@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/mr-linch/go-tg/tgb"
+	"github.com/dmalykh/go-tg/tgb"
 )
 
 // KeyFunc is a function that returns a key for a session from update.

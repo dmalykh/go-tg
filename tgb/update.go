@@ -4,8 +4,6 @@ import (
 	"context"
 	"encoding/json"
 	"sync"
-
-	"github.com/mr-linch/go-tg"
 )
 
 // Update wraps around a tg.Update.
