@@ -3,6 +3,7 @@ package tgb
 import (
 	"context"
 	"encoding/json"
+	tg "github.com/dmalykh/go-tg"
 	"sync"
 )
 

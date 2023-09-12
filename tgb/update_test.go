@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"testing"
 
+	tg "github.com/dmalykh/go-tg"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

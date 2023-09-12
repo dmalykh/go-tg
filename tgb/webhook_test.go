@@ -3,6 +3,7 @@ package tgb
 import (
 	"context"
 	"errors"
+	tg "github.com/dmalykh/go-tg"
 	"io"
 	"net/http"
 	"net/http/httptest"

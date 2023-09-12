@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"testing"
 
+	tg "github.com/dmalykh/go-tg"
 	"github.com/stretchr/testify/assert"
 )
 

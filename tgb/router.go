@@ -4,6 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	tg "github.com/dmalykh/go-tg"
 )
 
 // ErrorHandler define interface for error handling in Bot.
